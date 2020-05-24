@@ -1,0 +1,50 @@
+[
+  {
+    "model": "example.category",
+    "pk": 1,
+    "fields": {
+      "name": "Cloud Applications"
+    }
+  },
+  {
+    "model": "example.company",
+    "pk": 1,
+    "fields": {
+      "name": "CloudBlue Connect"
+    }
+  },
+  {
+    "model": "example.company",
+    "pk": 2,
+    "fields": {
+      "name": "Ingram Micro"
+    }
+  },
+  {
+    "model": "example.product",
+    "pk": 1,
+    "fields": {
+      "name": "Connect",
+      "category": 1,
+      "company": 1
+    }
+  },
+  {
+    "model": "example.product",
+    "pk": 2,
+    "fields": {
+      "name": "Connect Zapier Extension",
+      "category": 1,
+      "company": 1
+    }
+  },
+  {
+    "model": "example.product",
+    "pk": 3,
+    "fields": {
+      "name": "Commerce",
+      "category": 1,
+      "company": 2
+    }
+  }
+]
